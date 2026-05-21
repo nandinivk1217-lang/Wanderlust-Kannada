@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.hero{
+    height: 450px;
+    background-image: url(hero.png);
+    
+
+}
+.hero-title{
+    font-size: 65px;
+}
+.hero-lead{
+    font-size: 25px;
+}
+.hero-btn{
+    background: #ffffff;
+    color: #000000;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 10px;
+}
